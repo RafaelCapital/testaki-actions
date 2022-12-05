@@ -16,7 +16,7 @@ jobs:
         run: yarn test
   deploy:
     runs-on: ubuntu-latest
-     steps:
+    steps:
       - name: Get code
         uses: actions/checkout@v3
       - name: Install NodeJS
@@ -31,4 +31,3 @@ jobs:
         run: npm run build
       - name: Deployyyy:)
         run: echo "Taxa deploy"
-
