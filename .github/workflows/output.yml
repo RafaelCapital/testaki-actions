@@ -5,4 +5,4 @@ jobs:
     runs-on: ubundu-latest
     steps:
       - name: Output my Github context
-        run: echo "${{toJSON(github)}}"
+        run: echo "${{ toJSON(github) }}"
